@@ -10,3 +10,12 @@ Aggiungere una select accanto al bottone di generazione, che fornisca una scelta
 - con difficoltà 1 => 100 caselle, con un numero compreso tra 1 e 100, divise in 10 caselle per 10 righe;
 - con difficoltà 2 => 81 caselle, con un numero compreso tra 1 e 81, divise in 9 caselle per 9 righe;
 - con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
+
+PROBLEMA:
+1 - Creare una funzione che crei ogni singola cella della griglia;
+2 - creare in index.html una griglia con i vari stili;
+3 - creo un for che mi dia un numero progressivo di celle da 1 a 100;
+4 - Creo un pulsante che mi faccia comparire la griglia una volta cliccato;
+
+BONUS
+5 - Aggiungo alla cella un colore diverso se viene cliccata;
