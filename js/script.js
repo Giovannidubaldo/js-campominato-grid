@@ -12,7 +12,14 @@ function createCells(num){
 let grid = document.getElementById('grid');
 
 // Punto 3 readme.md
-for (let i=0; i<100; i++){
-    let square = createCells(i+1);
-    grid.appendChild(square);
+function createGrid(){
+    for (let i=0; i<100; i++){
+        let square = createCells(i+1);
+        grid.appendChild(square);
+    }
 }
+
+// Punto 5 readme.md
+document.getElementById('button').addEventListener('click', function(){
+    createGrid();
+})
