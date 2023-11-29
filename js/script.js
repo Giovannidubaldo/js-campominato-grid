@@ -15,6 +15,12 @@ let grid = document.getElementById('grid');
 function createGrid(){
     for (let i=0; i<100; i++){
         let square = createCells(i+1);
+
+        // Punto 6 readme.md
+        square.addEventListener('click', function(){
+            this.classList.toggle('square-blue');
+        })        
+
         grid.appendChild(square);
     }
 }
