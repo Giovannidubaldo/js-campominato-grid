@@ -19,7 +19,7 @@ function createGrid(){
         // Punto 6 readme.md
         square.addEventListener('click', function(){
             this.classList.toggle('square-blue');
-            console.log(this);
+            console.log(i+1);
         })        
 
         grid.appendChild(square);
