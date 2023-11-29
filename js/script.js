@@ -7,3 +7,11 @@ function createCells(num){
 }
 
 let grid = document.getElementById('grid');
+
+// Punto 3 readme.md
+for (let i=0; i<100; i++){
+    let square = createCells();
+
+    
+    grid.appendChild(square);
+}
